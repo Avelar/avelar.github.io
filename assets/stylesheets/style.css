@@ -1,0 +1,223 @@
+/*================================================ 
+ * Reset
+ * http://meyerweb.com/eric/tools/css/reset/ 
+ * v2.0 | 20110126
+ * License: none (public domain)
+ *================================================*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*================================================
+ *	Stylesheets
+ *	Base and Layout
+ *================================================*/
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font: 1.3em/1.8 'Lato', sans-serif;
+	font-weight: 300;
+	color: #37444a;
+}
+
+header,
+section,
+footer {
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+header {
+	padding-top: 100px;
+}
+
+.header,
+.section,
+.footer {
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+.header {
+	margin-bottom: 60px;
+}
+
+.header-content {
+	margin-bottom: 20px;
+}
+
+.header-content .title {
+	color: #37444a;
+	clear: left;
+	font-size: 3em;
+	padding-bottom: 10px;
+}
+
+.header-content hr {
+	border-width: 4px;
+	width: 120px;
+	border-color: #e14e2f;
+	float: left;
+}
+
+.display-hidden {
+	display: none;
+}
+
+.section-title {
+	border-top: 1px solid #37444a;
+	border-bottom: 1px solid #37444a;
+	margin: 40px 0;
+	padding: 20px 0px;
+	font-size: 1.8em;
+	text-align: center;
+}
+
+.footer {
+	color: #999999;
+	font-size: .8em;
+	height: 40px;
+	margin-top: 100px;
+	text-align: center;
+	width: 100%;
+}
+
+/*================================================
+ *	typography
+ *================================================*/
+
+h1, h2 {
+	font-family: 'Lustria', serif;
+	line-height: 1.2;
+}
+
+h3 {
+	font-weight: 400;
+}
+
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
+}
+
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #eeeeee;
+}
+
+/*================================================
+ *	links and navegation
+ *================================================*/
+
+a {
+	color: #e14e2f;
+	display: inline-block;
+	text-decoration: none;
+	padding-bottom: 4px;
+	line-height: 0.5;
+	border-bottom: 1px dotted #e14e2f;
+	-webkit-transition: color 0.2s linear;
+		 -moz-transition: color 0.2s linear;
+					transition: color 0.2s linear;
+}
+
+a:hover {
+	color: #428bca;
+	border-bottom: 0;
+}
+
+a.humans-txt-link {
+	display: block;
+	border:0; 
+}
+
+.nav .nav-link {
+	margin-left: 10px;
+}
+
+.no-link-style {
+	color: #37444a;
+	text-decoration: none;
+}
+
+/*================================================
+ *	Responsive
+ *================================================*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	
+	.header-content .title { 
+		font-size: 2em;
+	}
+	.header,
+	.section,
+	.footer {
+		width: 85%;
+	}
+	.header {
+		padding-top: 40px;
+	}
+	.footer {
+
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.header,
+	.section,
+	.footer {
+		width: 85%;
+	}
+
+	.header-content .title{
+		font-size: 1.8em;
+		line-height: 1.5
+	}
+}
