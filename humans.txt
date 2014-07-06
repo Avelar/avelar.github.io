@@ -1,0 +1,27 @@
+/* the humans responsible */
+/* humanstxt.org */
+	What is this file?
+	http://humanstxt.org
+
+/* TEAM */                            
+	Personal web site: Avelar Fortunato
+	Site: avelarfortunato.com
+	Twitter: @avelarfotunato
+	Location: Sao Paulo and Florianopolis island Brazil
+				
+/* THANKS */
+	My teachers: Lucas Hungaro and Daniel Hatkoff
+	My inspirations: My Family, My Wife, Vitor Klein and Gabe Rilich
+	
+/* OTHER COOL PROJECTS */
+	http://www.ebs.fm
+	http://www.pitzi.com.br/pitzi-dude
+
+
+/* SITE */
+	Last update: 2013/13/03
+	Language: Portuguese, Brazil
+	Standards: (D)HTML, CSS(3)
+	Components: javaScript, jQuery
+	Services: apis.google.com, google.com/fonts, GitHub
+	Software: Sublime Text2, Terminal
