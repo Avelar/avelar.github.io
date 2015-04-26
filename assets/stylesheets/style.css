@@ -80,8 +80,11 @@ body {
 }
 
 .footer {
+	bottom:0;
 	height: 40px;
+	left:20%;
 	margin-top: 100px;
+	position:absolute;
 	width: 100%;
 }
 
@@ -89,10 +92,24 @@ body {
 	display: none;
 }
 
+.label-name-work {
+	font-size: .8em;
+	font-weight: 100;
+	letter-spacing: .1em;
+	left: -80px;
+	position: absolute;
+	top: 40%;
+	height: 10px;
+	-webkit-transform: rotate(-90deg);
+		 -moz-transform: rotate(-90deg);
+					transform: rotate(-90deg);
+		  -ms-transform: rotate(-90deg);
+}
+
 /*================================================
  *	typography
  *================================================*/
-
+.header-content-title,
 h1 {
 	font-size: 5.563em;
 	font-weight: 900;
@@ -144,29 +161,22 @@ a.btn {
 }
 
 a {
-	color: #e14e2f;
+	color: #ddcb8c;
 	display: inline-block;
 	text-decoration: none;
-	padding-bottom: 4px;
 	line-height: 0.5;
-	border-bottom: 1px dotted #e14e2f;
 	-webkit-transition: color 0.2s linear;
 		 -moz-transition: color 0.2s linear;
 					transition: color 0.2s linear;
 }
 
 a:hover {
-	color: #428bca;
+	color: #4d4d4d;
 	border-bottom: 0;
 }
 
-a.humans-txt-link {
-	display: block;
-	border:0; 
-}
-
 .nav .nav-link {
-	margin-left: 10px;
+	margin-right: 10px;
 }
 
 /*================================================
