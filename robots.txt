@@ -3,6 +3,8 @@ Disallow: /cgi-bin/
 Disallow: /wusage
 Disallow: /lavoro/
 Disallow: /lavoro
+Disallow: /assets
+Disallow: /assets/*
 Disallow: /imagens/
 Disallow: /imagens
 Disallow: /js/
