@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,900);
+/*@import url(http://fonts.googleapis.com/css?family=Lato:300,900);*/
 /*================================================ 
  * Reset
  * http://meyerweb.com/eric/tools/css/reset/ 
@@ -51,6 +51,10 @@ table {
 }
 ::selection { background: #ddcb8c; }
 ::-moz-selection { background: #ddcb8c; }
+
+.viewport-height {
+	height: 100vh;
+}
 
 /*================================================
  *	Stylesheets
@@ -180,6 +184,24 @@ a:hover {
 
 .nav .nav-link {
 	margin-right: 10px;
+}
+
+/*================================================
+ *	works - landing
+ *================================================*/
+.crop-works-continer {
+	max-width: 704px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.masp-time-line {
+	background: url("../images/avelar-portifolio-masp.png") no-repeat;
+	background-size: 100%;
+	display: block;
+	width: 704px;
+	height: 704px;
 }
 
 /*================================================
