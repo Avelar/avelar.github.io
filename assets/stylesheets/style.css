@@ -67,8 +67,10 @@ html, body {
 
 body {
 	font: 1em/1.8 'Lato', sans-serif;
-	font-weight: 100;
-	color: #4d4d4d;
+	font-weight: 300;
+	/*color: #4d4d4d;*/
+	color: #fff;
+	background: #242425;
 }
 
 .content {
@@ -144,6 +146,11 @@ hr {
 
 p {
 	font-size: 1.313em;
+	letter-spacing: 0.05em;
+}
+
+.small {
+	font-size: 0.9em; 
 }
 
 /*================================================
@@ -182,8 +189,18 @@ a:hover {
 	border-bottom: 0;
 }
 
-.nav .nav-link {
-	margin-right: 10px;
+.nav {
+	margin-top: 20px;
+}
+.nav a {
+	border-bottom: 1px solid #444;
+	padding-bottom: 8px;
+}
+
+.nav .nav-link:after {
+	content: " / ";
+	color: #444;
+	margin: 0 8px;
 }
 
 /*================================================
