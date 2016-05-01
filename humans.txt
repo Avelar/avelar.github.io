@@ -3,15 +3,15 @@
 	What is this file?
 	http://humanstxt.org
 
-/* TEAM */                            
+/* TEAM */
 	Personal web site: Avelar Fortunato
 	Site: avelarfortunato.com
 	Twitter: @avelarfotunato
 	Location: Sao Paulo and Florianopolis, Brazil
-				
+
 /* THANKS */
 Lucas Hungaro, Daniel Hatkoff, Vitor Klein, Gabe Rilich, Mariana
-	
+
 /* VISIT THIS COOL PROJECTS */
 	http://www.ebs.fm
 	http://www.pitzi.com.br/pitzi-dude

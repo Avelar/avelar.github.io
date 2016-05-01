@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if lt IE 7]> <html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="lt-ie10 lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -8,43 +9,38 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>avelarfortunato</title>
-		<meta name="description" content="Avelar Fortunato webdesigner">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Avelar - web designer</title>
+		<meta name="description" content="Avelar Fortunato is a multi-disciplinary web designer who builds things using drawing and code.">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 		<link rel="stylesheet" href="assets/stylesheets/style.css">
+		<link rel="icon" href="favico144.png" type="image/png">
 	</head>
 	<body class="viewport-height">
-		<h1 class="label-name-work">Avelar Fortunato web designer</h1>
-<!-- 		<div class="crop-works-continer">
-			<ul>
-				<li class="crop-works-item masp-time-line"></li>
-				<li class="crop-works-item fruit-c-vitamin"></li>
-			</ul>
-		</div> -->
 		<div class="content">
 			<header class="header">
+				<span class="horizontal-rule"></span>
 				<div class="header-content">
-					<h2 class="header-content-title">
-						data
-						<br>
-						design
-						<br>
-						front-end
-					</h2>
-					<span class="horizontal-rule"></span>
-					<p>Crio interfaces web e visualização de dados</p>
+					<p>Avelar é um web designer multidisciplinar que trabalha com desenvolvimento web, design gráfico e digital desde 2009. Tem focado seu trabalho em experiência do usuário, informação e visualização de dados, utilizando design e código.
+					</p>
 				</div>
 				<nav class="nav">
-					<h2 class="display-hidden">Navigation</h2>
-					<p class="small">Subscribe to my personal email or follow for updates</p>
-					<a class="nav-link linkedin" href='javascript:semSpam("fortunato.avelar", "gmail.com")' title="Open your default client for e-mail, and send a message to me">
+					<!-- <p class="small">Subscribe to my personal email list, or follow for updates</p> -->
+					<p class="small">Say Hello or follow for updates :)</p>
+					<a class="nav-link twitter" title="Open your default client for e-mail, and send a message to me"
+					href='javascript:spamControl("fortunato.avelar", "gmail.com?subject=Website")' rel="nofollow">
 						email
 					</a>
 					<a class="nav-link github" href="http://github.com/avelar" title="Visit my Githumb">
 						github
 					</a>
 					<a class="nav-link twitter" href="http://www.twitter.com/avelarfortunato/" title="Visit my Twitter">
-						twitter 
+						twitter
+					</a>
+					<a class="nav-link dribbble" href="https://medium.com/@avelarfortunato" title="Visit my Medium Stories">
+						medium
+					</a>
+					<a class="nav-link twitter" href="http://www.pitzi.com.br/equipe" title="I work at awesome sturtup based on São Paulo Brazil - Pitzi.com.br">
+						work at pitzi.com.br <3
 					</a>
 				</nav>
 			</header>
@@ -53,23 +49,23 @@
 		</footer>
 		<script type="text/javascript">
 			//email spam control
-			function semSpam(usuario,domino) {
-				locationstring = 'mailto:' + usuario + '@' + domino;
-				window.location = locationstring;
-			}
+			function spamControl(usuario,domino) {
+		    getString = 'mailto:' + usuario + '@' + domino;
+		    window.location = getString;
+		  }
 
-			//analytics google
-			// var _gaq = _gaq || [];
-			// _gaq.push(['_setAccount', 'UA-23660227-1']);
-			// _gaq.push(["_setDomainName",".avelarfortunato.com"]);
-			// _gaq.push(['_trackPageview']);
-			// _gaq.push(["_trackPageLoadTime"]);
+			// analytics google
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-23660227-1']);
+			_gaq.push(["_setDomainName",".avelarfortunato.com"]);
+			_gaq.push(['_trackPageview']);
+			_gaq.push(["_trackPageLoadTime"]);
 
-			// (function() {
-			// 	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			// 	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			// var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			// })();
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
 		</script>
 	</body>
 </html>
