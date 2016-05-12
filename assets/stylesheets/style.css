@@ -1,0 +1,274 @@
+/*@import url(http://fonts.googleapis.com/css?family=Lato:300,900);*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/*================================================
+ * Reset
+ * http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain)
+ *================================================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+::selection { background: #ddcb8c; }
+::-moz-selection { background: #ddcb8c; }
+
+.viewport-height {
+	height: 100vh;
+}
+
+/*================================================
+ *	Stylesheets
+ *	Base and Layout
+ *================================================*/
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font: 1em/1.8 'Lato', sans-serif;
+	font-weight: 300;
+	/*color: #4d4d4d;*/
+	color: #fff;
+	background: #242425;
+	border: 20px solid #333;
+}
+
+.content {
+	margin: 0;
+	margin-left: 20%;
+  position: relative;
+  top: 50%;
+	transform: translateY(-50%);
+}
+
+.header,
+.section,
+.footer {
+	max-width: 500px;
+	display: block;
+}
+
+.footer {
+	bottom:0;
+	height: 40px;
+	left:20%;
+	margin-top: 100px;
+	position:absolute;
+	width: 100%;
+}
+
+.display-hidden {
+	display: none;
+}
+
+.label-name-work {
+	font-size: .8em;
+	font-weight: 100;
+	letter-spacing: .1em;
+	left: -50px;
+	position: absolute;
+	top: 38%;
+	height: 10px;
+	-webkit-transform: rotate(-90deg);
+		 -moz-transform: rotate(-90deg);
+					transform: rotate(-90deg);
+		  -ms-transform: rotate(-90deg);
+}
+
+/*================================================
+ *	typography
+ *================================================*/
+.header-content-title,
+h1 {
+	font-size: 5.563em;
+	font-weight: 900;
+	line-height: 1;
+}
+
+h2 {
+	font-weight: 400;
+}
+
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
+}
+
+.horizontal-rule {
+	border: 0;
+	border-top: 2px solid #c6b57f;
+	width: 150px;
+	height: 1px;
+	display: block;
+	margin: 40px 0;
+}
+
+p {
+	font-size: 1.313em;
+	letter-spacing: 0.05em;
+}
+
+.small {
+  font-size: 0.8em;
+  color: #444444;
+}
+
+.margin-bottom-things {
+	margin-bottom: 40px;
+}
+
+/*================================================
+ *	links, buttons and navegation
+ *================================================*/
+
+a.btn {
+	color: #c6b57f;
+}
+.btn {
+	font-size: .8em;
+	border: 2px solid #c6b57f;
+	color: #c6b57f;
+	font-weight: bold;
+	padding: 15px 20px;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	border: 2px solid #4d4d4d;
+	color: #4d4d4d;
+}
+
+a {
+	color: #c6b57f;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 0.5;
+	-webkit-transition: color 0.2s linear;
+		 -moz-transition: color 0.2s linear;
+					transition: color 0.2s linear;
+}
+
+a:hover {
+	color: #4d4d4d;
+	border-bottom: 0;
+}
+
+.nav {
+	margin-top: 20px;
+}
+.nav a {
+	border-bottom: 1px solid #444;
+	padding-bottom: 8px;
+	font-size: 0.7em;
+	text-transform: uppercase;
+}
+
+.nav .nav-link:after {
+	content: " / ";
+	color: #444;
+	margin: 0 8px;
+}
+
+/*================================================
+ *	works - landing
+ *================================================*/
+.crop-works-continer {
+	max-width: 704px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.centret-container {
+	width: 100%;
+	display: inline-block;
+	position: absolute;
+	/*align center of page responsiiive*/
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	padding: 0 10%;
+}
+
+/*================================================
+ *	Responsive
+ *================================================*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	.header-content .title {
+		font-size: 2em;
+	}
+	.header,
+	.section,
+	.footer {
+		width: 85%;
+	}
+	.header {
+		padding-top: 40px;
+	}
+	.content {
+    margin: 10%;
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.header,
+	.section,
+	.footer {
+		width: 85%;
+	}
+
+	.header-content .title{
+		font-size: 1.8em;
+		line-height: 1.5
+	}
+}
