@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>msc.js - Mailto spam control</title>
+		<link rel="stylesheet" href="http://avelarfortunato.com/assets/stylesheets/style.css">
+		<style type="text/css">
+			body { text-align: center;}
+		</style>
+	</head>
+	<body>
+
+		<section  class="centret-container">
+			<h1 class="margin-bottom-things">msc.js</h1>
+			<p class="margin-bottom-things ">
+				Mailto spam control is a simple function to prevent <spam class="italic">spambots</spam>, without to bring friction for the users <a href="https://github.com/Avelar/mailto-spam-control"> View code on github </a>
+			</p>
+
+			<!-- Mail to spam control HTML code-->
+			<a class="btn btn-centered" href='javascript:spamControl("fortunato.avelar", "gmail.com")' title="Open your default client for e-mail, and send a message to me" rel="nofollow">
+				The Get in touch test
+			</a>
+		</section>
+		<script type="text/javascript">
+			// mailto spam control javascript code
+			function spamControl(usuario,domino) {
+				getString = 'mailto:' + usuario + '@' + domino;
+				window.location = getString;
+			}
+		</script>
+	</body>
+</html>
