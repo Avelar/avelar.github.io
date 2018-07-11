@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Console Tricks!</title>
+</head>
+<body>
+
+  <p onClick="makeGreen()">×BREAK×DOWN×</p>
+
+  <script>
+    const dogs = [
+      { name: 'Snickers', age: 2 },
+      { name: 'hugo', age: 8 }
+    ];
+
+    function makeGreen() {
+      const p = document.querySelector('p');
+      p.style.color = '#BADA55';
+      p.style.fontSize = '50px';
+    }
+
+    // Regular
+    console.log('have a nice day');
+
+    // Interpolated
+    console.log('have a %s day', 'wonderful');
+    // OR
+    const niceDay = "happy";
+    console.log(`have a ${niceDay} day`);
+
+    // Styled
+    console.log('%c have a nice day', 'font-size: 32px; color: #134b8d;');
+
+    // warning!
+    console.warn('Be atention');
+
+    // Error :|
+    console.error('Shit!');
+
+    // Info
+    console.info("There are more cellphones then people in the world");
+
+    // Testing (if something is False or True)
+    const p = document.querySelector('p');
+    console.assert(p.classList.contains('ouch'), 'That is wrong!');
+
+    // Viewing DOM Elements
+      // Mostra o elemento em si
+      console.log(p);
+
+      // Mostra todos os métodos e propriedades do elemento
+      console.dir(p);
+
+    // clearing
+    // console.clear();
+
+    // Grouping together
+    dogs.forEach(dog => {
+      console.group(`${dog.name}`);
+      // console.groupCollapsed(`${dog.name}`);
+      console.log(`This is ${dog.name}`);
+      console.log(`${dog.name} is ${dog.age} years old`);
+      console.groupEnd(`${dog.name}`);
+    });
+
+    // counting
+    console.count('Ave');
+    console.count('Ave');
+    console.count('Vini');
+    console.count('Vini');
+    console.count('Herm');
+    console.count('Herm');
+
+    // timing
+
+    // Tables
+    console.table(dogs)
+
+  </script>
+</body>
+</html>
