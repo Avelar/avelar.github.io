@@ -29,7 +29,7 @@ img.cover {
   align-self: flex-start;
 }
 .flex-item--dir {
-  background: #000;
+  background: #12162D;
   color: #fff;
 }
 .flex-item--dir a {
@@ -41,4 +41,18 @@ img.cover {
 .challenge-link {
   display: block;
   padding: 10px 0;
+}
+
+@media only screen and (max-width : 800px) {
+  .flex {
+    width: 100%;
+    flex-flow: column;
+  }
+  .flex-item {
+    width: 100%;
+  }
+  img.cover {
+    width: 100%;
+    height: auto;
+  }
 }
