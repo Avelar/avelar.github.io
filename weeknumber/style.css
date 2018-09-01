@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/*================================================
+ * Reset
+ * http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain)
+ *================================================*/
+html, body, div, span, h1, h2, p, a, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+header, section, footer {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+::selection { background: #ddcb8c; }
+::-moz-selection { background: #ddcb8c; }
+
+/*================================================
+ *	Stylesheets
+ *	Base and Layout
+ *================================================*/
+
+:root {
+  --color-default: #131832;
+  --color-secondary: #FDF06F;
+}
+
+html, body {
+	height: 100%;
+  width: 100%;
+}
+
+body {
+	font: 1.1em/1.8 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: var(--color-default);
+	background: var(--color-secondary);
+}
+
+.wrap {
+  height: 100vh;
+  padding: 5%;
+}
+
+/*================================================
+ *	typography
+ *================================================*/
+h1 {
+	font-size: 2.2em;
+	font-weight: 800;
+	line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+h2 {
+	font-weight: 400;
+}
+
+p{
+  margin-bottom: 30px;
+}
+
+/*================================================
+ *	links, buttons and navegation
+ *================================================*/
+a.button,
+.button {
+  text-decoration: none;
+  background: var(--color-default);
+	color: var(--color-secondary);
+	font-weight: bold;
+	padding: 20px 25px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-transition: all 0.2s linear;
+		 -moz-transition: all 0.2s linear;
+					transition: all 0.2s linear;
+}
+
+.button:hover {
+	color: #fff;
+}
+
+a {
+  color: var(--color-default);
+	display: inline-block;
+	text-decoration: underline;
+	line-height: 0.5;
+}
+
+a:hover {
+	color: #4d4d4d;
+	border-bottom: 0;
+  text-decoration: none;
+}
+
+/*================================================
+ *	Content
+ *================================================*/
+ .content {
+   width: 100%;
+   display: flex;
+   flex-flow: row;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+ }
+
+ .flex-item-one {
+   width: 40%;
+   margin-right: 5%;
+ }
+
+ .flex-item-two {
+   width: 40%;
+   position: relative;
+ }
+
+.phone-sample {
+  position: absolute;
+  bottom: -50%;
+  left: -12%;
+}
+
+/*================================================
+ *	Responsive
+ *================================================*/
+
+@media only screen and (max-width:780px){
+  .content {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+  }
+  .wrap {
+    width: 100%;
+    height: auto;
+  }
+  .flex-item-one {
+    width: 100%;
+    margin-right: 0;
+    order: 2;
+  }
+  .flex-item-two {
+    width: 100%;
+    order: 1;
+  }
+  .flex-item-two img {
+    width: 70%;
+    margin: 20px 0;
+  }
+  .phone-sample {
+    display: none;
+  }
+}
