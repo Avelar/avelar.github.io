@@ -49,7 +49,7 @@ html, body {
 }
 
 body {
-	font: 1.1em/1.8 'Open Sans', sans-serif;
+	font: 1em/1.8 'Open Sans', sans-serif;
 	font-weight: 400;
 	color: var(--color-default);
 	background: var(--color-secondary);
@@ -64,18 +64,21 @@ body {
  *	typography
  *================================================*/
 h1 {
-	font-size: 2.2em;
+	font-size: 2.5em;
 	font-weight: 800;
-	line-height: 1.2;
+	line-height: 1.1;
   margin-bottom: 20px;
 }
 
 h2 {
-	font-weight: 400;
+	font-weight: 800;
 }
 
 p{
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+}
+small {
+  font-size: 0.7em;
 }
 
 /*================================================
@@ -94,6 +97,7 @@ a.button,
   -webkit-transition: all 0.2s linear;
 		 -moz-transition: all 0.2s linear;
 					transition: all 0.2s linear;
+  margin-top: 20px;
 }
 
 .button:hover {
