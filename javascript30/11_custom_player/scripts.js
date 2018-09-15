@@ -51,7 +51,6 @@ function handleRangeUpdate(e){
   // console.log(e.type);
   console.log(e.step);
   console.log(this.value);
-  // Ask to Vini/Herminio how it works actualy
   video[this.name] = this.value;
 }
 

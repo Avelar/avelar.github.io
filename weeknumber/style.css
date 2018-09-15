@@ -145,6 +145,10 @@ a:hover {
   left: -12%;
 }
 
+.mobile {
+  display: none;
+}
+
 /*================================================
  *	Responsive
  *================================================*/
@@ -153,26 +157,46 @@ a:hover {
   .content {
     display: flex;
     flex-flow: column;
-    text-align: center;
   }
   .wrap {
     width: 100%;
     height: auto;
+    padding: 0;
   }
   .flex-item-one {
     width: 100%;
     margin-right: 0;
     order: 2;
+    padding: 5%;
   }
   .flex-item-two {
+    background: #131832;
     width: 100%;
     order: 1;
+    color: var(--color-secondary);
+    padding: 40px 0;
+    text-align: center;
   }
   .flex-item-two img {
     width: 70%;
     margin: 20px 0;
   }
+  .desktop,
   .phone-sample {
     display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  h2.mobile {
+    font-size: 1.4em;
+  }
+  .line-divisor {
+    margin-bottom: 40px;
+  }
+  #line-divisor {
+    stroke: var(--color-default);
+    stroke-width: 4;
+    stroke-linecap: round;
   }
 }
