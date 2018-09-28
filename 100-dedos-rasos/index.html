@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <style media="screen">
     *, *:before, *:after {
     -webkit-box-sizing: border-box;
@@ -39,7 +40,7 @@
     .athlete_dude {
       position: fixed;
       top: 40%;
-      left: 10%;
+      left: 40%;
       z-index: 100;
     }
     .start-line {
@@ -57,16 +58,44 @@
       z-index: 2;
       padding-top: 330px;
     }
+    button {
+      font-size: 40px;
+      position: fixed;
+      z-index: 200;
+      background: #134b8d;
+      color: #fff;
+      padding: 30px;
+      border-radius: 150px;
+      border: 0;
+      outline: none;
+      left: 30px;
+      top: 30px;
+      cursor: pointer;
+      text-align: center;
+      transition: background 250ms ease-in-out,
+                  transform 150ms ease;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      transform: scale(0.9);
+      box-shadow: none;
+    }
+    button:hover,
+    button:focus {
+      transform: scale(1.1);
+      box-shadow: 0 0 1rem #134b8d;
+    }
+
     </style>
   </head>
   <body>
     <section class="content">
       <div class="speedway">
         <div class="athlete">
-          <img class="athlete_dude" width="184" src="athlete_dude.svg" alt="">
+          <img class="athlete_dude" width="92" src="athlete_dude.svg" alt="">
+          <button onclick="scrollWin(0, 100)">Vai</button>
         </div>
         <div class="start-line">
-          <img width="80%" src="start-line.svg" alt="">
+          <img width="100%" src="start-line.svg" alt="">
         </div>
         <div class="finish-line">
           <img width="80%" src="finish-line.svg" alt="">
@@ -75,7 +104,8 @@
     </section>
   </body>
   <script type="text/javascript">
-    var y = $(window).scrollTop();
-    $(window).scrollTop(y+150);
+  function scrollWin(x, y) {
+      window.scrollBy(x, y);
+  }
   </script>
 </html>
