@@ -1,0 +1,23 @@
+/* Typography */
+
+::-moz-selection{
+  color:#fff;
+  background: #B09263;
+}
+::selection {
+  color:#fff;
+  background: #B09263;
+}
+
+/* #headline */
+h2,
+h3,
+h4,
+.headline {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  margin: 10px 0;
+}

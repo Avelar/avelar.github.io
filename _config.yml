@@ -1,0 +1,19 @@
+---
+title: Avelar — Web Designer
+timezone: America/Sao_Paulo
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+markdown: kramdown
+baseurl: "/"
+author: Avelar Fortunato
+email:
+description: Avelar Fortunato – Designer and developer who builds things using drawing and code.
+exclude:
+- README.md
+- Gemfile.lock
+- vendor
