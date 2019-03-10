@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="84px" viewBox="0 0 375 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>finish-line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="finish-line" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,0 L375,0 L375,84 L0,84 L0,0 Z M24,67 L34,67 L34,57 L24,57 L24,67 Z M34,57 L44,57 L44,47 L34,47 L34,57 Z M44,67 L54,67 L54,57 L44,57 L44,67 Z M54,57 L64,57 L64,47 L54,47 L54,57 Z M64,67 L74,67 L74,57 L64,57 L64,67 Z M74,57 L84,57 L84,47 L74,47 L74,57 Z M24,47 L34,47 L34,37 L24,37 L24,47 Z M44,47 L54,47 L54,37 L44,37 L44,47 Z M64,47 L74,47 L74,37 L64,37 L64,47 Z M34,37 L44,37 L44,27 L34,27 L34,37 Z M54,37 L64,37 L64,27 L54,27 L54,37 Z M74,37 L84,37 L84,27 L74,27 L74,37 Z M24,27 L34,27 L34,17 L24,17 L24,27 Z M44,27 L54,27 L54,17 L44,17 L44,27 Z M64,27 L74,27 L74,17 L64,17 L64,27 Z M351,17 L341,17 L341,27 L351,27 L351,17 Z M341,27 L331,27 L331,37 L341,37 L341,27 Z M331,17 L321,17 L321,27 L331,27 L331,17 Z M321,27 L311,27 L311,37 L321,37 L321,27 Z M311,17 L301,17 L301,27 L311,27 L311,17 Z M301,27 L291,27 L291,37 L301,37 L301,27 Z M351,37 L341,37 L341,47 L351,47 L351,37 Z M331,37 L321,37 L321,47 L331,47 L331,37 Z M311,37 L301,37 L301,47 L311,47 L311,37 Z M341,47 L331,47 L331,57 L341,57 L341,47 Z M321,47 L311,47 L311,57 L321,57 L321,47 Z M301,47 L291,47 L291,57 L301,57 L301,47 Z M351,57 L341,57 L341,67 L351,67 L351,57 Z M331,57 L321,57 L321,67 L331,67 L331,57 Z M311,57 L301,57 L301,67 L311,67 L311,57 Z" id="Combined-Shape" fill="#134B8D"></path>
+        <text id="Você-Chegou" font-family="MuseoSans-900, Museo Sans" font-size="26" font-weight="bold" fill="#FFFFFF">
+            <tspan x="104" y="51">Você Chegou</tspan>
+        </text>
+    </g>
+</svg>

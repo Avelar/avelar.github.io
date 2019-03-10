@@ -1,0 +1,26 @@
+/* the humans responsible */
+/* humanstxt.org */
+	What is this file?
+	http://humanstxt.org
+
+/* TEAM */
+	Personal web site: Avelar Fortunato
+	Site: avelarfortunato.com
+	Twitter: @avelarfotunato
+	Location: Sao Paulo and Florianopolis, Brazil
+
+/* THANKS */
+Lucas Hungaro, Dani Hatkoff, Vitor Klein, Mariana
+
+/* VISIT THIS COOL PROJECTS */
+	http://www.ebs.fm
+	http://www.pitzi.com.br/pitzi-dude
+
+/* SITE */
+	Last update: 2019/03/10
+	Language: Portuguese, Brazil
+	Libs: Jekyll
+	Standards: HTML, CSS
+	Components: javaScript
+	Services: apis.google.com, google.com/fonts, GitHub pages
+	Software: Atom, Terminal

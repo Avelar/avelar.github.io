@@ -1,23 +1,22 @@
 /* Typography */
-
 ::-moz-selection{
-  color:#fff;
-  background: #B09263;
+  color: var(--maing-color);
+  background: var(--contrast-color);
 }
 ::selection {
-  color:#fff;
-  background: #B09263;
+  color: var(--maing-color);
+  background: var(--contrast-color);
 }
 
-/* #headline */
-h2,
-h3,
-h4,
-.headline {
-  font-family: 'Source Sans Pro', sans-serif;
-}
 h1 {
-  font-family: 'Playfair Display', serif;
-  font-weight: normal;
-  margin: 10px 0;
+  color: var(--main-color);
+  font-size: 3.875em; /* Tip: to find font "em" sizes based on default font body "pixels" do: 62px ÷ 16px. Learn with master E.Shiota */
+  margin-bottom: 0;
+}
+
+h3 {
+
+}
+.paragraph {
+  margin-bottom: 40px;
 }
