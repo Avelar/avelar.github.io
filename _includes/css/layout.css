@@ -28,6 +28,14 @@
   display: flex;
 }
 
+.nav-in-section {
+  display: inline-block;
+}
+.nav-in-section .nav-link {
+  padding: 0 5px;
+}
+
+
 .go-top {
   background-position: 0 -40px;
   position: fixed;
