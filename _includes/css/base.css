@@ -8,6 +8,7 @@
 
 :root {
   --main-color: #15161A;
+  --main-color-light: #B8BBBD;
   --text-color: #4A4A4A;
   --contrast-color: #EED5D5;
   --link-color: #0054E4;
@@ -20,6 +21,10 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
+  /* min-height: 5000px;
+  background-image: -webkit-linear-gradient(273deg,#fbd6cd 6%,#fbe8aa 28%,#50e2e3 56%,#fdc0ee 78%,#fdeba8 95%,#fff 100%);
+  background-image: -o-linear-gradient(273deg,#fbd6cd 6%,#fbe8aa 28%,#50e2e3 56%,#fdc0ee 78%,#fdeba8 95%,#fff 100%);
+  background-image: linear-gradient(177deg,#fbd6cd 6%,#fbe8aa 28%,#50e2e3 56%,#fdc0ee 78%,#fdeba8 95%,#fff 100%); */
 }
 img { width: 100%; }
 figure { margin:0; padding:0; }

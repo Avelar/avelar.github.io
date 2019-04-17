@@ -12,7 +12,7 @@ markdown: kramdown
 baseurl: "/"
 author: Avelar Fortunato
 email:
-description: Avelar Fortunato – Designer and developer who builds things using drawing and code.
+description: Avelar Fortunato – Product Designer and developer who builds things using design and code.
 exclude:
 - README.md
 - Gemfile.lock

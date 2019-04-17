@@ -14,8 +14,16 @@ h1 {
   margin-bottom: 0;
 }
 
+.section-item-headline,
 h3 {
-
+  font-size: 2.61em; /* 41,89/16 */
+  color: var(--main-color);
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+.section-item-sub-headline {
+  color: var(--main-color-light);
+  margin-bottom: 20px;
 }
 .paragraph {
   margin-bottom: 40px;

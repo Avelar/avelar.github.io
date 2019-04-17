@@ -1,0 +1,122 @@
+{% include head.html %}
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <p>
+          It’s nice to meet you :)
+        </p>
+        <h1 class="headline">
+          <!-- <span class="headline-icon">👋</span> -->
+          Oi, sou {{ site.author }}.
+        </h1>
+
+        <p class="paragraph">
+          I am brazilian Product Designer based in <strike>São Paulo</strike>, Florianópolis. I design and develop digital products with focus on user experience, simplicity and data. I’m a designer and developer for <a href="https://pitzi.com.br/equipe" target="_blank" title="Visit the Pitzi StartUp web site">Pitzi.com.br</a>, an amazing insurtech based on São Paulo, who wich is making the insurance sector beautiful on Brazil.
+        </p>
+
+        <p class="paragraph">
+          See below some of projects that I’ve been worked, and… say hello.
+        </p>
+
+        {% include navegation_in_section.html %}
+
+      </div>
+    </header>
+    <section class="section">
+      <div class="section-item section-item-text">
+        <h3 class="section-item-title">
+          Pitzi.com.br
+        </h3>
+        <div class="section-item-role">
+          <span class="section-item-role-label">
+            My Role
+          </span>
+          Developer and Product Designer
+        </div>
+        <p>
+          From 2012 until now I’ve been worked in the most incredible and disruptive projects in my life inside this StartUp. I’ve pleasure of work among incredible people with diferent skills, from many different cityes and countries.
+          <!-- <br><br>
+          It’s awesome to share some of this works :) -->
+           <ul>
+            <li>
+              Android and PWAs UI design and development
+            </li>
+            <li>
+              Dashboards development
+            </li>
+            <li>
+              Office design experiences
+            </li>
+            <li>
+              UX: research on/off line, usability tests, A/B tests, data analisys.
+            </li>
+            <li>
+              Graphic and Digital designs
+            </li>
+            <li>
+              Presentations
+            </li>
+            <li>
+              Api integrations with REST
+            </li>
+            <li>
+              Manegment People and Progects
+            </li>
+            <li>
+              And so much more funny things in group
+            </li>
+          </ul>
+        </p>
+        <div class="cta">
+          <a href="#"></a>
+        </div>
+      </div>
+      <div class="section-item section-item-image">
+          <img src="img/screeshot-pitzi.png" alt="">
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-item section-item-text">
+        <h3 class="section-item-headline">
+          Qual o tamanho das práias de Florianóplis?
+        </h3>
+        <div class="section-item-sub-headline">
+          Frond-end development and design
+        </div>
+        <p>
+          A interactive map to response and show the question "What’s the size of Florianópolis Island Beachs?"
+          <ul>
+            <li>
+              Research
+            </li>
+            <li>
+              Interactive map development
+            </li>
+          </ul>
+        </p>
+        <p>
+          Tech key-words: leaflet.JS lib, Javascript and Open Street Map
+        </p>
+        <div class="cta">
+          <a href="#" class="btn"></a>
+        </div>
+      </div>
+      <div class="section-item section-item-image">
+        <img src="img/browser-header.svg" alt="">
+        <!-- <video width="100%" height="100%" controls autoplay> -->
+        <video width="100%" height="100%" controls>
+          <source src="videos/tamaho-praias-floripa.mp4" type="video/mp4">
+          <source src="videos/tamaho-praias-floripa.webm" type="video/webm">
+          Your browser does not support HTML5 video.
+        </video>
+
+      </div>
+    </section>
+
+    {% include footer.html %}
+
+    <script src="/js/main.js"></script>
+
+  </body>
+</html>

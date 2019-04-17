@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="810px" height="49px" viewBox="0 0 810 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>browser-header</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="browser-header" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5">
+            <path d="M8,0 L802,-1.77635684e-15 C806.418278,-2.58798134e-15 810,3.581722 810,8 L810,49 L0,49 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z" id="Rectangle-4" fill="#15161A"></path>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="56" y="11" width="715" height="27" rx="13.5"></rect>
+            <circle id="Oval-4" fill="#FFFFFF" cx="16" cy="25" r="4"></circle>
+            <circle id="Oval-4" fill="#FFFFFF" opacity="0.5" cx="28" cy="25" r="4"></circle>
+            <circle id="Oval-4" fill="#FFFFFF" opacity="0.200000003" cx="40" cy="25" r="4"></circle>
+        </g>
+    </g>
+</svg>
