@@ -8,7 +8,7 @@
    background: rgba(0, 0, 0, 0.5);
    width: 100%;
    /* height: 100%; */
-   padding: 1% 6%;
+   padding: 6% 3%;
    position: relative;
    z-index: 1;
  }
@@ -16,7 +16,7 @@
   width: 100%;
   background: #fff;
   z-index: 10;
-  padding: 3%;
+  padding: 10% 3%;
   -webkit-border-radius: 15px;
      -moz-border-radius: 15px;
           border-radius: 15px;
@@ -25,7 +25,7 @@
   text-align: center;
 }
 .section-checkout--title {
-  font-size: 42px;
+  font-size: 36px;
   margin-bottom: 17px;
   line-height: 1;
 }
@@ -66,6 +66,7 @@
 .selected-composteira img{
   width: 100%;
 }
+.select-kit-list,
 .select-color-list {
   display: flex;
   flex-wrap: wrap;
@@ -77,15 +78,15 @@
   text-align: center;
 }
 
-input[type="radio"] {
+.select-color-list input[type="radio"] {
   display: none;
 }
 
-input[type="radio"]:checked + label span {
+.select-color-list input[type="radio"]:checked + label span {
   transform: scale(1.25);
   border: 2px solid #004042;
 }
-
+.select-kit-list,
 .select-color-list {
   display: flex;
   justify-content: center;
@@ -94,16 +95,16 @@ input[type="radio"]:checked + label span {
 .color-name {
   display: block;
 }
-label {
+.select-color-list label {
   display: inline-block;
   width: 47px;
   height: 47px;
   cursor: pointer;
 }
-label:hover span {
+.select-color-list label:hover span {
   transform: scale(1.25);
 }
-label span {
+.select-color-list label span {
   display: block;
   width: 100%;
   height: 100%;
@@ -128,4 +129,60 @@ label span.blue {
 }
 label span.red {
   background: #9B3832;
+}
+
+/*#step3*/
+
+.kit-image img {
+  width: 100%;
+}
+.kit-details-item {
+  display: block;
+}
+.kit-name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.selects input[type="radio"] {
+  display: none;
+}
+
+.selects input[type="radio"] + label div {
+  border: 2px solid transparent;
+  padding-bottom: 20px;
+}
+.selects input[type="radio"] + label div:hover {
+  border: 2px solid #004042;
+}
+.selects input[type="radio"]:checked + label div {
+  border: 2px solid #004042;
+}
+
+.selects label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+/*
+ * #Desktop
+ * ===================== */
+@media (min-width: 1024px) {
+  .select-kit-list li {
+    flex: 1 0 29%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    align-self: stretch;
+    text-align: center;
+    padding: 10px;
+  }
+  .section-checkout--title {
+    font-size: 42px;
+  }
+  .section-checkout-step {
+    padding: 3%;
+  }
+   .wrapper {
+    padding: 1% 6%;
+   }
 }

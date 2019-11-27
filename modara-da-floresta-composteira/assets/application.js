@@ -23,6 +23,19 @@ $('input[name="color"]').click(function(){
     $(".image-color").attr('src', 'assets/images/colors/' + colorSelected + '.jpg');
   }
   else if($(this).prop("checked") == false){
-     alert("Checkbox is unchecked.");
+     alert("Ops, selecione uma cor");
+  }
+});
+
+// Select Kit
+$('input[id="none"]').prop('checked', true);
+$('input[name="kit"]').click(function(){
+  if($(this).prop("checked") == true){
+    var colorSelected = this.value;
+    console.log(colorSelected);
+    // $(".image-color").attr('src', 'assets/images/colors/' + colorSelected + '.jpg');
+  }
+  else if($(this).prop("checked") == false){
+     alert("Selecione um acessório.");
   }
 });
