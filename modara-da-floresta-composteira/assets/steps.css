@@ -1,0 +1,131 @@
+/*
+ * #Checkout Styles #Steps
+ * ===================== */
+ /*#step1*/
+ .wrapper {
+   display: flex;
+   align-items: center;
+   background: rgba(0, 0, 0, 0.5);
+   width: 100%;
+   /* height: 100%; */
+   padding: 1% 6%;
+   position: relative;
+   z-index: 1;
+ }
+.section-checkout-step {
+  width: 100%;
+  background: #fff;
+  z-index: 10;
+  padding: 3%;
+  -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+          border-radius: 15px;
+}
+.section-checkout-step-header {
+  text-align: center;
+}
+.section-checkout--title {
+  font-size: 42px;
+  margin-bottom: 17px;
+  line-height: 1;
+}
+.select-item {
+  border: 4px solid transparent;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.select-item:hover{
+  border: 4px solid #004042;
+}
+.select-item h4 {
+  font-weight: bold;
+}
+.select-item-image img {
+  width: 80%;
+}
+.item-price {
+  font-size: 25.96px;
+}
+.item-price.price-before {
+  color:red;
+  text-decoration:line-through;
+}
+.item-price.active {
+  color:red;
+  margin-left: 10px;
+}
+.item-price.price-before .text {
+  color: var(--text-color);
+}
+.select-item-price {
+  margin: 10px 0;
+}
+
+/*#step2*/
+.selected-composteira img{
+  width: 100%;
+}
+.select-color-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.select-color-list li {
+  flex: 1 0 29%;
+  margin-bottom: 20px;
+  align-self: center;
+  text-align: center;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + label span {
+  transform: scale(1.25);
+  border: 2px solid #004042;
+}
+
+.select-color-list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.color-name {
+  display: block;
+}
+label {
+  display: inline-block;
+  width: 47px;
+  height: 47px;
+  cursor: pointer;
+}
+label:hover span {
+  transform: scale(1.25);
+}
+label span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: transform .2s ease-in-out;
+}
+
+label span.grey {
+  background: #C0C0C0;
+}
+label span.black {
+  background: #000000;
+}
+label span.green {
+  background: #859258;
+}
+label span.brown {
+  background: #734021;
+}
+label span.blue {
+  background: #1855b0;
+}
+label span.red {
+  background: #9B3832;
+}
