@@ -91,14 +91,15 @@
 .color-more-sellig {
   font-size: 0.7em;
   position: absolute;
-  top: -13px;
+  top: -16px;
   transform: rotate(-45deg);
-  left: 15px;
+  left: -6px;
   width: 40px;
   text-align: center;
   line-height: 1;
   color: #F8931E;
 }
+
 
 .select-color-list input[type="radio"] {
   display: none;
@@ -165,13 +166,28 @@ label span.red {
   font-weight: bold;
   font-size: 1.2em;
 }
+
 .selects input[type="radio"] {
-  display: none;
+  /* display: none; */
+  position: absolute;
+  bottom: 20px;
+  left: 47%;
 }
 
-.selects input[type="radio"] + label div.selects-label {
+.card-item {
+  box-shadow: 1px 1px 6px #ccc;
+  border-radius: 15px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.card-item-bottom-space {
+  margin-bottom: 30px;
+}
+
+.selects input[type="radio"] + label {
   border: 4px solid transparent;
   padding-bottom: 20px;
+  height: 100%;
   -webkit-border-radius: 15px;
      -moz-border-radius: 15px;
           border-radius: 15px;
@@ -179,7 +195,7 @@ label span.red {
   transition: transform .25s ease-in-out;
 }
 
-.selects input[type="radio"]:checked + label div.selects-label {
+.selects input[type="radio"]:checked + label {
   border: 4px solid #004042;
 }
 
@@ -195,13 +211,17 @@ label span.red {
 @media (min-width: 1024px) {
   .select-kit-list li.select-kit-list-item {
     flex: 1 0 20%;
-    margin-right: 0px;
-    margin-bottom: 20px;
+    margin: 10px 10px 20px 10px;
     align-self: stretch;
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
   }
-  .selects input[type="radio"] + label div.selects-label:hover {
+  .color-more-sellig {
+    top: -13px;
+    transform: rotate(-45deg);
+    left: 15px;
+  }
+  .selects input[type="radio"] + label:hover {
     /* transform: scale(1.05); */
     border: 4px dashed #004042;
   }
