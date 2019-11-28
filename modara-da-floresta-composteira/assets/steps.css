@@ -22,6 +22,14 @@
      -moz-border-radius: 15px;
           border-radius: 15px;
 }
+.section-checkout-back {
+    position: relative;
+    text-decoration: none;
+    color: #ccc;
+    text-align: center;
+    margin: -10px 0 20px -20px;
+    display: block;
+}
 .section-checkout-step-header {
   text-align: center;
 }
@@ -77,6 +85,19 @@
   margin-bottom: 20px;
   align-self: center;
   text-align: center;
+  position: relative;
+}
+
+.color-more-sellig {
+  font-size: 0.7em;
+  position: absolute;
+  top: -13px;
+  transform: rotate(-45deg);
+  left: 15px;
+  width: 40px;
+  text-align: center;
+  line-height: 1;
+  color: #F8931E;
 }
 
 .select-color-list input[type="radio"] {
@@ -173,8 +194,8 @@ label span.red {
  * ===================== */
 @media (min-width: 1024px) {
   .select-kit-list li.select-kit-list-item {
-    flex: 1 0 29%;
-    margin-right: 10px;
+    flex: 1 0 20%;
+    margin-right: 0px;
     margin-bottom: 20px;
     align-self: stretch;
     text-align: center;
@@ -190,7 +211,18 @@ label span.red {
   .section-checkout-step {
     padding: 3%;
   }
+  .step-acessories .flex-wrapper{
+    margin-top: 40px;
+    padding: 0;
+  }
    .wrapper {
     padding: 1% 6%;
+   }
+   .section-checkout-back {
+     position: absolute;
+     top: 25px;
+     left: 35px;
+     text-decoration: none;
+     color: #ccc;
    }
 }

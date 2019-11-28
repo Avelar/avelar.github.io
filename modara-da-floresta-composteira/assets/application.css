@@ -172,7 +172,9 @@ footer {
  .desktop-only {
    display: none;
  }
-
+.padding-top-40 {
+  padding-top: 40px;
+}
 /* typography */
 html, body {
   font-family: 'Lato', Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -212,7 +214,7 @@ a.button,
   border-bottom: 3px solid #004042;
 }
 .button-hint-small {
-  font-size: 0.7em;
+  font-size: 0.9em;
   display: block;
   margin-top: 20px;
 }
