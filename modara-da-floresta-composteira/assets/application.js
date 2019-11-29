@@ -20,7 +20,6 @@ $('.section-faq--accordion > dt > a').click(function(e) {
 $('input[name="composteira"]').click(function(){
   if($(this).prop("checked") == true){
     var composteiraSelected = this.value;
-    console.log(composteiraSelected);
     const callToAction = $(".button-select-composteira");
     if (composteiraSelected == "composteira_humi") {
       callToAction.attr("href", "selecione-a-cor-da-composteira.html");
@@ -33,14 +32,12 @@ $('input[name="composteira"]').click(function(){
   }
 });
 
-
 // Select color
 $('input[id="grey"]').prop('checked', true);
 $('input[name="color"]').click(function(){
   if($(this).prop("checked") == true){
     var colorSelected = this.value;
     const callToAction = $(".button-select-color");
-    console.log(colorSelected);
     $(".image-color").attr('src', 'assets/images/colors/' + colorSelected + '.jpg');
     callToAction.attr("href", "selecione-acessorios-composteira-humi-" + colorSelected + ".html")
   }
@@ -55,7 +52,6 @@ $('input[name="kit"]').click(function(){
   if($(this).prop("checked") == true){
     var kitSelected = this.value;
     console.log(kitSelected);
-    // $(".image-color").attr('src', 'assets/images/colors/' + colorSelected + '.jpg');
   }
   else if($(this).prop("checked") == false){
      alert("Selecione um acessório.");
