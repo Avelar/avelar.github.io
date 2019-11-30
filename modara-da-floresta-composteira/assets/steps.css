@@ -166,6 +166,12 @@ label span.red {
   font-weight: bold;
   font-size: 1.2em;
 }
+.accessories-included-list .up {
+  color: green;
+}
+.accessories-included-list .down {
+  color: red;
+}
 
 .selects input[type="radio"] {
   /* display: none; */
@@ -204,6 +210,10 @@ label span.red {
   cursor: pointer;
 }
 
+.step-colors .flex-grid {
+  padding: 0 1%;
+}
+
 
 /*
  * #Desktop
@@ -217,9 +227,9 @@ label span.red {
     /* padding: 10px; */
   }
   .color-more-sellig {
-    top: -13px;
+    top: -17%;
     transform: rotate(-45deg);
-    left: 15px;
+    left: 11%;
   }
   .selects input[type="radio"] + label:hover {
     /* transform: scale(1.05); */
