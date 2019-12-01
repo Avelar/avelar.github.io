@@ -36,26 +36,26 @@
               <p class="countdownclock-content-headline">
                 Apenas por tempo limitado!
               </p>
-              <div id="clockdiv">
+              <div id="clock"></div> -->
+              <!-- <div id="clockdiv">
                 <div>
-                  <span id="countdownclockDays" class="days"></span>
-                  <div class="smalltext">Dias</div>
+                  <span class="days"></span>
+                  <div class="smalltext">Days</div>
                 </div>
                 <div>
-                  <span id="countdownclockHours" class="hours"></span>
-                  <div class="smalltext">Horas</div>
+                  <span class="hours"></span>
+                  <div class="smalltext">Hours</div>
                 </div>
                 <div>
-                  <span id="countdownclockMinutes" class="minutes"></span>
-                  <div class="smalltext">Minutos</div>
+                  <span class="minutes"></span>
+                  <div class="smalltext">Minutes</div>
                 </div>
                 <div>
-                  <span id="countdownclockSeconds"  class="seconds"></span>
-                  <div class="smalltext">Segundos</div>
+                  <span class="seconds"></span>
+                  <div class="smalltext">Seconds</div>
                 </div>
-              </div>
-            </div> -->
-
+              </div> -->
+            <!-- </div> -->
             <img src="assets/images/how-it-works-placeholder.png" alt="imagem mostrando quais alimentos vão na composteira">
             <a href="selecione-sua-composteira.html" class="button mobile-only" type="button" name="button">
               Comprar agora
@@ -255,7 +255,18 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- <script src="assets/countdownclock.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script src="assets/countdownclock.js"></script>
     <script src="assets/application.js"></script>
+    <script type="text/javascript">
+      $( document ).ready(function() {
+        var currentTime = Date.parse(new Date());
+        var timeInMinutes = 1;
+        var deadline = new Date(currentTime + timeInMinutes*60*1000);
+        console.log(currentTime);
+        console.log(deadline);
+        $.cookie('myClock', currentTime, { expires: 7, path: '/' });
+      });
+    </script>
   </body>
 </html>

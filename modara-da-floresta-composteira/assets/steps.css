@@ -50,6 +50,10 @@
 .select-item-image img {
   width: 80%;
 }
+.select-item-details  {
+  text-align: left;
+  padding: 0px 2%;
+}
 .item-price {
   font-size: 25.96px;
 }
@@ -230,6 +234,10 @@ label span.red {
     top: -17%;
     transform: rotate(-45deg);
     left: 11%;
+  }
+  .select-item-details  {
+    text-align: left;
+    padding: 0px 10%;
   }
   .selects input[type="radio"] + label:hover {
     /* transform: scale(1.05); */
