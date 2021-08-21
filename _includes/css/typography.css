@@ -9,13 +9,19 @@
 }
 
 h1 {
+  font-family: new-spirit, serif;
+  font-weight: 700;
+  font-style: normal;
   color: var(--main-color);
-  font-size: 3.875em; /* Tip: to find font "em" sizes based on default font body "pixels" do: 62px ÷ 16px. Learn with master E.Shiota */
+  font-size: 2.8rem; /* Tip: to find font "em" sizes based on default font body "pixels" do: 62px ÷ 16px. Learn with master E.Shiota */
   margin-bottom: 0;
 }
 
 .section-item-headline,
 h3 {
+  font-family: new-spirit, serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 2.61em; /* 41,89/16 */
   color: var(--main-color);
   line-height: 1.2;
