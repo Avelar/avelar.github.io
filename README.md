@@ -1,1 +1,1 @@
-personal website
+Side projetcs, static site experiments
