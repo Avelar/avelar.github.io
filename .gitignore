@@ -4,3 +4,8 @@
 .project
 .DS_Store
 bin
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
