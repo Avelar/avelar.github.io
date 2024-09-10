@@ -1,1 +1,1 @@
-Side projetcs, static site experiments
+Side projetcs and experiments.
